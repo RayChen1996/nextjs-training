@@ -17,7 +17,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { ChevronDown, ChevronUp, User2 } from "lucide-react";
+import { ChevronUp, User2 } from "lucide-react";
 import { Calendar, Home, Inbox, Search, Settings } from "lucide-react";
 
 const items = [

@@ -1,4 +1,5 @@
 export async function GET(request) {
+  console.log("GET request", request);
   const users = [
     { id: 1, name: "Alice", card: "12345" },
     { id: 2, name: "Bob", card: "67890" },

@@ -18,34 +18,34 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { ChevronUp, User2 } from "lucide-react";
-import { Calendar, Home, Inbox, Search, Settings } from "lucide-react";
+import { Calendar, Home, Inbox, Search } from "lucide-react";
 
 const items = [
   {
-    title: "使用者",
-    url: "#",
+    title: "商品管理",
+    url: "/products",
     icon: Home,
   },
   {
-    title: "歷史紀錄",
-    url: "#",
+    title: "訂單管理",
+    url: "/orders",
     icon: Inbox,
   },
   {
-    title: "卡鐘設定",
-    url: "#",
+    title: "優惠券管理",
+    url: "/coupon",
     icon: Calendar,
   },
   {
-    title: "資料查詢",
-    url: "/history",
+    title: "文章管理",
+    url: "/article",
     icon: Search,
   },
-  {
-    title: "系統設定",
-    url: "#",
-    icon: Settings,
-  },
+  // {
+  //   title: "系統設定",
+  //   url: "#",
+  //   icon: Settings,
+  // },
 ];
 
 export default function AppSide() {
